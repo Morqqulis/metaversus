@@ -45,10 +45,11 @@ const Hero: React.FC = (): JSX.Element => {
             <div className={`hero-gradient absolute -top-[30px] z-0 h-[130px] w-full rounded-tl-[140px]`} />
             <Image
               className={`relative z-10 h-[350px] w-full rounded-tl-[140px] sm:h-[500px]`}
-              src={'/cover.png'}
+              src={'/cover.webp'}
               alt={'cover'}
-              width={3915}
-              height={2595}
+              width={1920}
+              height={1080}
+              style={{ width: 'auto', height: 'auto' }}
             />
             <Link href={'/#explore'}>
               <div className={`relative z-10 -mt-[50px] flex w-full justify-end pr-[40px] sm:-mt-[70px]`}>
